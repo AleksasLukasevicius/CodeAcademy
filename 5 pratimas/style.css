@@ -54,17 +54,31 @@ header li a:hover {
 h2,
 h3 {
   text-align: center;
+  border-bottom: #555 4px solid;
 }
+
+h3 {
+  border-bottom: #555 2px solid;
+}
+
 
 #apie p {
   text-align: justify;
 }
 
+
 .product {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
   margin: 10px;
   padding: 10px;
-  text-align: center;
   font-weight: bold;
+}
+
+div.product:nth-child(2) {
+  border-bottom: #555 px solid;
 }
 
 .product img {
