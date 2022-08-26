@@ -29,7 +29,7 @@ h2 a {
 }
 
 .logo {
-    width: 50%;
+    width: 25%;
     display: block;
     margin: 0 auto;
     padding: 16px;
@@ -57,7 +57,7 @@ h2 a {
 .container {
     text-align: left;
     overflow: hidden;
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     display: table;
     padding: 0 0 8em 0;
